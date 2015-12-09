@@ -56,13 +56,21 @@ html,
 body {
   height: 100%;
 }
-body #nav-bar {
-  background: #0066cc;
-  color: #ffffff;
+body .brand-logo {
+  float: left;
+  text-align: left;
+}
+body .welcome-name {
+  float: right;
+  text-align: right;
+  padding: 0px;
+}
+body .navbar {
+  background: #cccccc;
 }
 body .navbar-default .navbar-nav > li > a {
-  color: #ffffff;
+  color: #333333;
 }
 body .navbar-default .navbar-nav > li > a:hover {
-  color: #fafafa;
+  color: #333333;
 }

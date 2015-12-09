@@ -23,16 +23,24 @@ body {
   height: 100%;
 }
 body{
-  #nav-bar{
-    background: @blue-color;
-    color:@white-color;
+  .brand-logo{
+    float: left;
+    text-align: left;
+  }
+  .welcome-name{
+    float: right;
+    text-align: right;
+    padding: 0px;
+  }
+  .navbar{
+    background: @gray-base;
   }
   .navbar-default .navbar-nav>li>a{
-    color:@white-color;
+    color:@black-color;
   }
 
   .navbar-default .navbar-nav>li>a:hover{
-    color:@gray-light;
+    color:@black-color;
   }
 }
 
