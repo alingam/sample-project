@@ -1,0 +1,14 @@
+{
+  "name": "Uber Portal",
+  "version": "0.0.0",
+  "dependencies": {
+    "console-polyfill": "^0.1.2",
+    "underscore": "^1.8.2",
+    "jquery": "~2.1.4",
+    "requirejs": "~2.1.22",
+    "polymer": "~1.2.3",
+    "bootstrap": "~3.3.6",
+    "es6-shim": "~0.33.13",
+    "webcomponentsjs": "~0.7.19"
+  }
+}

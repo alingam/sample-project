@@ -1,0 +1,13 @@
+<%- contentFor('body') %>
+<div class="container  main-container  no-padding">
+    <input type="hidden" id="message" value="<%=pageData.message %>"/>
+    <div id="rendercontent">
+
+    </div>
+</div>
+
+<% if(env === 'development') { %>
+<script src="javascripts/react/components-js/loginComponent.js?v=<%= deployVersion %>" type="text/javascript"></script>
+<% } else { %>
+<script src="javascripts/react/components-min/loginComponent.min.js?v=<%= deployVersion %>" type="text/javascript"></script>
+<% }%>

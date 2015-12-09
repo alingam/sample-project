@@ -1,0 +1,38 @@
+html {
+  background: @white-color;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clearfix {
+  display: inline-block;
+}
+html[xmlns] .clearfix {
+  display: block;
+}
+* html .clearfix {
+  height: 1%;
+}
+html,
+body {
+  height: 100%;
+}
+body{
+  #nav-bar{
+    background: @blue-color;
+    color:@white-color;
+  }
+  .navbar-default .navbar-nav>li>a{
+    color:@white-color;
+  }
+
+  .navbar-default .navbar-nav>li>a:hover{
+    color:@gray-light;
+  }
+}
+
